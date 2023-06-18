@@ -100,6 +100,7 @@ std::vector<float> *Data::sort_freq_table(std::vector<float> arr, std::vector<fl
     return result;
 }
 
+//check size of data
 int Data::length() {
     return data.size();
 }
